@@ -10,5 +10,5 @@ function submit(){
 }
 
 statuses.forEach(element => {
-    element.addEventListener("change", submit);
+    element.addEventListener("change", setTimeout(submit, 5000));
 });
